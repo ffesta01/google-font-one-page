@@ -1,0 +1,154 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+}
+
+.hero-content {
+  width: 50%;
+  text-align: center;
+  color: #000;
+}
+
+p {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+a {
+  margin-top: 0;
+  margin-right:10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  border-radius:0px;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  background-color:  rgb(0, 0, 0, 0.3);
+  z-index: 10;
+  }
+
+span .font-pair1a{
+  font-family: 'Roboto', sans-serif;
+}
+
+span .font-pair1b{
+  font-family: 'Cabin', sans-serif;
+}
+
+
+/* add your css below this line */
+
+.hero-background {
+  background: url("https://cdn.pixabay.com/photo/2017/03/24/09/46/grid-2170631_1280.png") no-repeat fixed center;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section-background {
+  background: url("https://images.pexels.com/photos/1535421/pexels-photo-1535421.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") no-repeat fixed bottom;
+}
+
+.second-section-background {
+  background: url("https://images.pexels.com/photos/7078699/pexels-photo-7078699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed bottom;
+}
+
+.third-section-background {
+  background: url("https://images.pexels.com/photos/3321256/pexels-photo-3321256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed bottom;
+}
+
+.with-background {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 55px;
+  font-weight: 200;
+  line-height: 60px;
+  margin: 0;
+}
+
+.number {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: -25px;
+  right: -25px;
+  font-weight: 30px;
+  line-height: 50px;
+}
+
+article {
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.first-article-container, .second-article-container, .third-article-container  {
+  position: relative;
+}
+
+.first-article-container {
+  background-color: white;
+}
+
+.second-article-container {
+  background-color: #E1F5FA;
+}
+
+.third-article-container {
+  background-color: #B6B6B6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgb(0, 0, 0, 0.3);
+}
